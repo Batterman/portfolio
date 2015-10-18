@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+      <link rel="stylesheet" type="text/css" href="static/css/stylesheet.css">
+
+  </head>
+
+
+  <body style="vertical-align: middle ;width: {{ bodywidth }}px">
+
+  <div id="wrapper">
+
+  <div id="profil">
+         <img src="static/img/profil_03.jpg" alt="profil" height="784px">
+  </div>
+
+  <article id="b1" style="width: 374px">
+      <h2>Mettes kaffekort</h2>
+      <p>Jeg og Mette mødes en gang i mellem over en kop kaffe for at updatere hinanden på vores liv. Derfor lavede jeg et kaffekort til Mette på hendes fødselsdag, som hun til hver en tid kan bruge, og jeg vil komme forbi med en kop kaffe eller to.</p>
+      <img src="static/img/profil_11.gif" alt="mette kaffekort">
+      <hr id="articlesplitter">
+      <p>Photoshop, Illustrator</p>
+  </article>
+
+   <article id="b2" style="width: 474px">
+      <h2>Et billede af mig selv til Mathildes fødselsdag</h2>
+      <p>Da Mathilde havde fødseldag ville jeg lave en gave der fik hende til at grine. Jeg ville anvende humor i et billede, og valgte derfor at klæde mig ud som en machofyr men med mange modsigende signaler</p>
+      <img src="static/img/profil_08.gif" alt="mette kaffekort">
+       <hr id="articlesplitter">
+      <p>Photoshop, Illustrator</p>
+  </article id="b3">
+     <article>
+      <h2>Mette's kaffeklippekort</h2>
+      <p>Dette er mette kaffekort jeg lavede til hendes fødselsdag</p>
+      <img src="static/img/profil_11.gif" alt="mette kaffekort">
+  </article>
+  </div>
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script>
+      $(function() {
+      $("#profil").hide().fadeIn(600);
+      $("#b1").hide().delay(500).show(300);
+      $("#b2").hide().delay(200).show(300);
+      $("#b3").hide().delay(200).show(300);
+      });
+  </script>
+
+<footer>
+
+</footer>
+
+  </body>
+</html>
